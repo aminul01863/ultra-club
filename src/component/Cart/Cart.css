@@ -1,0 +1,28 @@
+/* .exercise-details {
+    position: absolute;
+} */
+.complete-btn {
+    border: none;
+    width: 100%;
+    background-color: rgb(89, 41, 247);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.complete-btn:hover {
+    background-color: orange;
+    color: black;
+}
+
+.time-break button {
+    justify-content: space-between;
+    margin-right: 10px;
+    background-color: rgb(62, 91, 251);
+    border: none;
+}
+
+.time-break button:hover {
+    background-color: rgb(89, 41, 247);
+    color: white;
+}
