@@ -27,10 +27,12 @@ const Cart = (props) => {
         <Button onClick={() => handelTime(60)}>60</Button>
       </div>
       <p className="fs-4">Exercise details</p>
-      <p className="fs-4">Exercise Time: {exercise} sec</p>
+      <p className="fs-5">
+        Exercise Time: <small className="second-time">{exercise} second</small>
+      </p>
 
-      <p className="fs-4">
-        Break Time :<small>{time}</small>
+      <p className="fs-5">
+        Break Time :<small className="second-time"> {time} second</small>
       </p>
 
       <button onClick={notify} className="complete-btn">
